@@ -277,7 +277,7 @@ os.environ["OPENAI_API_KEY"] = "your-api-key"
 os.environ["OPENAI_BASE_URL"] = "https://api.deepseek.com"
 
 llm = ChatOpenAI(
-    api_key="c8ff5d6d099742b0855805b4e59245c4.1ORR5pA9RqwR5wcq",
+    api_key="",
     base_url="https://open.bigmodel.cn/api/paas/v4",
     model="glm-4-flash",
     temperature=0.3,  # 哲学文本需要更严谨的生成
