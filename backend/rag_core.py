@@ -1,4 +1,4 @@
-# 直接复制 ChatMode.py 中的相关类，去掉终端交互部分
+
 import os
 import gc
 from typing import List, Dict, Any
@@ -16,7 +16,7 @@ from sentence_transformers import SentenceTransformer
 os.environ["HF_HOME"] = "D:/huggingface_cache"
 os.environ["TRANSFORMERS_CACHE"] = "D:/huggingface_cache"
 os.environ["OMP_NUM_THREADS"] = "4"
-os.environ["OPENAI_API_KEY"] = "c8ff5d6d099742b0855805b4e59245c4.1ORR5pA9RqwR5wcq"
+os.environ["OPENAI_API_KEY"] = ""
 os.environ["OPENAI_BASE_URL"] = "https://open.bigmodel.cn/api/paas/v4"
 
 
