@@ -4,7 +4,7 @@ from langchain.agents import create_agent
 from langchain.messages import SystemMessage, HumanMessage
 
 myllm = ChatOpenAI(
-    api_key="c8ff5d6d099742b0855805b4e59245c4.1ORR5pA9RqwR5wcq",
+    api_key="",
     base_url="https://open.bigmodel.cn/api/paas/v4",  # 智谱 OpenAI 兼容端点
     model="glm-4-flash",
     temperature=0.7,  # 控制生成文本的随机程度，值越高越随机
